@@ -1,0 +1,8 @@
+.card {
+    border-radius: 12px;
+}
+
+.card:hover,
+.card:active {
+    box-shadow: 0 1px 8px rgba(0, 255, 255, 0.911);
+}
