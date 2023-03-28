@@ -97,8 +97,6 @@ const ExpenseForm = (props) => {
                     <input
                         type="date"
                         value={enteredDate}
-                        placeholder="DD/MM/YYYY"
-                        title="DD/MM/YYYY"
                         min="2022-01-01"
                         max="2030-12-31"
                         onChange={dateChangeHandler}
